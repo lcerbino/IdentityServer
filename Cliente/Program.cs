@@ -44,6 +44,7 @@ namespace Cliente
             if (!response.IsSuccessStatusCode)
             {
                 throw new Exception("Error");
+
             }
             else
             {
